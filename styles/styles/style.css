@@ -1,0 +1,178 @@
+@import 'https://fonts.googleapis.com/css?family=Pacifico';
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Pacifico', cursive;
+	background-color: #F1D7D4;
+	color: white;
+	/*text-shadow: 0 0 4px black;*/
+	height: 100%;
+	padding-top: 97px;
+	position: relative;
+}
+
+header {
+	top: 0;
+	padding: 15px 20px;
+	background-color: #65547F;
+	box-shadow: 0 0 5px #272727;
+	border-bottom: 1px solid #222;
+	z-index: 1000;
+	position: absolute;
+	width: 100%;
+	height: 97px;
+}
+
+h1,h2{
+	text-align: center;
+	font-size: 40px;
+}
+
+aside, main {
+	display: inline-block;
+	height: 100%;
+	vertical-align: top;
+	font-size: 0.85em;
+}
+
+main {
+	padding: 15px;
+	color:#65547F;
+	max-width: 75%;
+	
+}
+
+aside {
+	background-color: #65547F;
+	box-shadow: 0 0 5px #272727;
+	overflow: hidden;
+	width: 230px;
+}
+
+aside h3 {
+	padding: 10px;
+	text-align: center;
+	box-shadow: 0 0 4px #222;
+	
+}
+
+aside ul {
+	padding: 0;
+	margin: 0px;
+}
+
+aside ul li {
+	list-style: none;
+}
+
+aside ul li a {
+	text-decoration: none;
+	display: block;
+	padding: 10px 15px;
+	border-bottom: 1px solid #353535;
+}
+
+aside ul li:last-child a{
+	border-bottom: none;
+}
+
+aside ul li a:hover {
+	background-color: #555555;
+}
+
+aside ul li a.selected {
+	background-color: #353535;
+	box-shadow: 0 0 5px black inset;
+}
+
+main h2 {
+	padding: 10px 0;
+	font-size: 1.5em;
+
+
+}
+
+main p {
+	margin: 15px 0;
+
+}
+
+main p:last-of-type{
+	text-align: center;
+	margin-top:40px;
+	margin-left:15px;
+
+}
+
+.button {
+	text-decoration: none;
+	border: none;
+	padding: 5px;
+	background: #65547F;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #222;
+	text-align: center;
+	color:white;
+}
+
+.button:hover{
+	background-color: #F1D7D4;
+	color:#65547F;
+	border: 3px solid #65547F;
+
+}
+
+input{
+
+	display: block;
+	border-radius: 5px;
+}
+
+input[value]{
+	font-family: 'Pacifico', cursive;
+	font-size:20px;
+
+}
+
+form{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    transform: translate(-50%,-50%);
+    border:2px solid #65547F; 
+    border-radius: 2px;
+    box-shadow: 0 0 5px #222; 
+    padding: 50px;
+
+}
+
+.message{
+	margin:0;
+}
+
+.messages li{
+	list-style: none;
+	margin:15px 0;
+}
+
+.messages li .personne{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+a[href='deconnexion.php']{
+	margin-left:70px;
+}
+
+a[href='inscription.php']{
+	color:#65547F;
+}
+
+.inscription{
+	
+	color:#65547F;
+}
+
